@@ -38,9 +38,9 @@ const About = () => {
 
           <div id="content_part">
             <p>
-              Full Stack Developer specializing in React, JavaScript, Node.js, Express, and MongoDB (Mongoose),
-              with hands-on experience in developing end-to-end web applications. Skilled in building REST APIs,
-              integrating databases, and creating responsive, user-friendly interfaces.
+              I am a Computer Science graduate with a strong passion for building scalable and user-friendly web applications. I enjoy transforming ideas into functional digital products using modern JavaScript-based technologies while continuously improving my problem-solving and development skills.
+              I have a solid foundation in Data Structures and Algorithms using C++, along with hands-on experience in JavaScript, CSS, React.js, Node.js, Express.js, and MongoDB (Mongoose). I have worked on full-stack projects involving responsive frontend interfaces, RESTful APIs, and efficient backend systems with a focus on clean code and performance.
+              I am comfortable using tools like Git and Visual Studio Code, and I have experience managing databases and application logic using MongoDB and Mongoose. I enjoy working in collaborative environments, learning new technologies, and taking on challenging problems that help me grow as a full-stack developer.
             </p>
 
               <a id="content-btn" href="https://drive.google.com/file/d/1DErO9fEbWm6cG5fGlOlfJJLJoPkwILBE/view?usp=sharing">

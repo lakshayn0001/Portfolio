@@ -10,9 +10,10 @@ const Home = () => {
   return (
     <div id="home_page">
       <div id="content_section">
-        <h1>Lakshay Nagpal</h1>
-        <h2>Full Stack Developer</h2>
-        <h3>2.8 years of experience at OATI</h3>
+        <h1>Hello,I'm  </h1>
+        <h1>Lakshay Nagpal a Passionate</h1>
+        <h2>Software Developer</h2>
+        <h3>Crafting innovative digital solutions and bringing ideas to life with clean, efficient code. Ready to build something amazing?</h3>
         <div><button onClick={gotobottom} >Say Hi...</button>
          </div>
       </div>
