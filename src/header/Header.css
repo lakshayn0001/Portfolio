@@ -1,15 +1,24 @@
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 64px;
   background: #2d2d2d;
   color: white;
-  padding: 15px 25px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
+
+  padding: 0 20px;
+  z-index: 1000;
 }
 
 .logo {
   margin: 0;
+  font-size: 20px;
+  font-weight: bold;
 }
 .nav-links {
   display: flex;
@@ -22,47 +31,47 @@
   font-weight: bold;
   padding: 8px 14px;
   border-radius: 8px;
-  transition: 0.3s ease;
+  transition: background 0.3s ease;
 }
+
 .nav-links a:hover {
-  color: white;
   background: linear-gradient(45deg, #ec76ca, #6db7f7, #6060e3, #f7ca7b);
   background-size: 600% 600%;
   animation: gradientMove 6s ease infinite;
 }
-
-@keyframes gradientMove {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-
 .menu-icon {
   display: none;
   font-size: 28px;
   cursor: pointer;
 }
-
 @media (max-width: 768px) {
 
   .menu-icon {
     display: block;
+    z-index: 1100;
   }
 
   .nav-links {
-    position: absolute;
-    top: 70px;
-    right: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
     background: #2d2d2d;
-    width: 100%;
-    height: calc(100vh - 70px);
+
+    display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+
     gap: 30px;
 
     transform: translateX(100%);
-    transition: transform 0.3s ease;
+    transition: transform 0.35s ease-in-out;
+
+    z-index: 1050;
   }
 
   .nav-links.show {
@@ -72,4 +81,9 @@
   .nav-links a {
     font-size: 24px;
   }
+}
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
