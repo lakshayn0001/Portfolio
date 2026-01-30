@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import {BrowserRouter, Route, Routes} from 'react-router'
+import {HashRouter, Route, Routes} from 'react-router'
 
 import Footer from './footer/Footer.jsx'
 import Header from './header/Header.jsx'
@@ -16,7 +16,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-        <BrowserRouter>
+        <HashRouter>
           <div id='root'>
             <Header/>
             <Routes>
@@ -30,7 +30,7 @@ function App() {
             </Routes>
             <Footer/>
      </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
