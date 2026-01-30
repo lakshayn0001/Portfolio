@@ -43,7 +43,7 @@ const About = () => {
               integrating databases, and creating responsive, user-friendly interfaces.
             </p>
 
-              <a id="content-btn" href="https://drive.google.com/file/d/1CWLsH4d4axjk4bxCrXERiCmGkNy9m2P3/view?usp=sharing">
+              <a id="content-btn" href="https://drive.google.com/file/d/1DErO9fEbWm6cG5fGlOlfJJLJoPkwILBE/view?usp=sharing">
               Download CV
               </a>
             
