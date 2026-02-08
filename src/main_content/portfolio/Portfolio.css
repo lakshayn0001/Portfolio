@@ -20,6 +20,11 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
+  text-decoration: none;
+}
+.content_data a {
+  text-decoration: none;
+  color: rgb(53, 83, 110);
 }
 .project_summary {
   background: #7fffd4;

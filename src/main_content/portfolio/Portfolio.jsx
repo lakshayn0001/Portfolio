@@ -2,12 +2,12 @@ import React from "react";
 import './Portfolio.css'
 
 const Projects = [
-  { name: 'HTML Project' },
-  { name: 'CSS Project' },
-  { name: 'JavaScript Project' },
-  { name: 'React App' },
-  { name: 'Bootstrap UI' },
-  { name: 'Git Practice' }
+  { name: 'Quiz Application' ,url:'https://lakshayn0001.github.io/Quiz_Application/'},
+  { name: 'CSS Project' ,url:'https://lakshayn0001.github.io/Quiz_Application/'},
+  { name: 'JavaScript Project' ,url:'https://lakshayn0001.github.io/Quiz_Application/' },
+  { name: 'React App' ,url:'https://lakshayn0001.github.io/Quiz_Application/'},
+  { name: 'Bootstrap UI' ,url:'https://lakshayn0001.github.io/Quiz_Application/'},
+  { name: 'Git Practice' ,url:'https://lakshayn0001.github.io/Quiz_Application/'}
 ]
 
 const Portfolio = () => {
@@ -21,9 +21,9 @@ const Portfolio = () => {
 
       <div className="content_data">
         {Projects.map((value, index) => (
-          <div className="project_summary" key={index}>
+          <a href={value.url} className="project_summary" key={index}>
             <h2>{value.name}</h2>
-          </div>
+          </a>
         ))}
       </div>
 
