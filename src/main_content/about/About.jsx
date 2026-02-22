@@ -43,7 +43,7 @@ const About = () => {
               I am comfortable using tools like Git and Visual Studio Code, and I have experience managing databases and application logic using MongoDB and Mongoose. I enjoy working in collaborative environments, learning new technologies, and taking on challenging problems that help me grow as a full-stack developer.
             </p>
 
-              <a id="content-btn" href="https://drive.google.com/file/d/1DErO9fEbWm6cG5fGlOlfJJLJoPkwILBE/view?usp=sharing">
+              <a id="content-btn" href="https://drive.google.com/file/d/1l5jgozGyEKUmIcUZ9R0aa2l7dgUqefmd/view?usp=sharing">
               Download CV
               </a>
             
