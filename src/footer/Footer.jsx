@@ -8,7 +8,7 @@ const Footer = () => (
     </div>
 
     <div id='footer_second'>
-      <a href="#" className="footer-link">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/lakshay-nagpal-1a2a0134a/" className="footer-link">LinkedIn</a>
       <a href="#" className="footer-link">Twitter</a>
     </div>
   </div>
