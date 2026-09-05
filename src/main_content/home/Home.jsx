@@ -1,6 +1,5 @@
 import React from "react";
 import './Home.css';
-import Poster from '../../../public/Poster.jpeg';
 
 const Home = () => {
   const scrollTo = (id) => {
@@ -34,15 +33,6 @@ const Home = () => {
             <button className="btn_secondary" onClick={() => scrollTo('contact')}>
               Contact Me
             </button>
-          </div>
-        </div>
-
-        <div id="photo_section">
-          <div className="avatar_wrapper">
-            <div className="avatar_glow"></div>
-            <div className="avatar_frame">
-              <img id="poster" src={Poster} alt="Lakshay Nagpal" />
-            </div>
           </div>
         </div>
       </div>
