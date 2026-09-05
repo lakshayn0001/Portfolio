@@ -1,75 +1,58 @@
 import React from "react";
-import './Skill.css'
+import './Skill.css';
 
-const languages = [
-  { name: 'C++' },
-  { name: 'JavaScript' }
-]
-
-const frontend_skill = [
-  { name: 'HTML' },
-  { name: 'CSS' },
-  { name: 'JavaScript' },
-  { name: 'React' },
-  { name: 'Bootstrap' }
-]
-
-const backend_skill = [
-  { name: 'Node' },
-  { name: 'Express JS' },
-  { name: 'Mongoose' }
-]
-
-const tools = [
-  { name: 'VS Code' },
-  { name: 'Git' },
-  { name: 'Postman' },
-  { name: 'GitHub' }
-]
+const skillCategories = [
+  {
+    title: "Languages",
+    badge: "Core",
+    skills: ["JavaScript (ES6+)", "TypeScript", "C++", "SQL", "HTML5", "CSS3"]
+  },
+  {
+    title: "Frontend Development",
+    badge: "Client-Side",
+    skills: ["React.js", "Next.js 16", "Tailwind CSS", "Chart.js", "Vite", "Responsive Design"]
+  },
+  {
+    title: "Backend & Databases",
+    badge: "Server-Side",
+    skills: ["Node.js", "Express.js", "Socket.io", "PostgreSQL", "MongoDB Atlas", "Prisma ORM", "REST APIs"]
+  },
+  {
+    title: "DevOps & Cloud",
+    badge: "Deployment & Tools",
+    skills: ["Docker", "Kubernetes", "Git & GitHub", "Vercel", "Render", "Postman", "CI/CD Pipelines"]
+  }
+];
 
 const Skill = () => {
   return (
-    <div className="skill">
-
+    <section className="skill" id="skill">
       <div className="first_div">
+        <span className="section_badge">EXPERTISE</span>
         <h1>My Tech Arsenal</h1>
-        <h2>Here's a glimpse of the technologies and tools I leverage</h2>
-        <h3>to build robust and innovative solutions</h3>
+        <p>A comprehensive toolkit of languages, frameworks, and cloud technologies I leverage to build scalable systems</p>
       </div>
 
       <div className="second_div">
-
-        <div className="skill-box">
-          <h2>Languages</h2>
-          <div className="skill-grid">
-            {languages.map((v, i) => <p className="skill-item" key={i}>{v.name}</p>)}
+        {skillCategories.map((category, index) => (
+          <div className="skill-box" key={index}>
+            <div className="skill-box-header">
+              <span className="skill-category-badge">{category.badge}</span>
+              <h2>{category.title}</h2>
+            </div>
+            <div className="skill-grid">
+              {category.skills.map((skill, sIdx) => (
+                <div className="skill-item" key={sIdx}>
+                  <span className="skill-dot"></span>
+                  <span className="skill-text">{skill}</span>
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
-
-        <div className="skill-box">
-          <h2>Frontend</h2>
-          <div className="skill-grid">
-            {frontend_skill.map((v, i) => <p className="skill-item" key={i}>{v.name}</p>)}
-          </div>
-        </div>
-
-        <div className="skill-box">
-          <h2>Backend</h2>
-          <div className="skill-grid">
-            {backend_skill.map((v, i) => <p className="skill-item" key={i}>{v.name}</p>)}
-          </div>
-        </div>
-
-        <div className="skill-box">
-          <h2>Tools & Platforms</h2>
-          <div className="skill-grid">
-            {tools.map((v, i) => <p className="skill-item" key={i}>{v.name}</p>)}
-          </div>
-        </div>
-
+        ))}
       </div>
-    </div>
-  )
-}
+    </section>
+  );
+};
 
-export default Skill
+export default Skill;
