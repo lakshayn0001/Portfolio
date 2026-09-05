@@ -55,6 +55,7 @@
   width: 320px;
   height: 400px;
   object-fit: cover;
+  object-position: center 15%;
   display: block;
   transition: transform 0.3s ease;
 }
