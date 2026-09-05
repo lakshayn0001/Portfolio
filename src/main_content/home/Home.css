@@ -146,8 +146,8 @@ html {
 
 .avatar_wrapper {
   position: relative;
-  width: 330px;
-  height: 330px;
+  width: 320px;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -157,8 +157,8 @@ html {
   position: absolute;
   width: 100%;
   height: 100%;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(168, 85, 247, 0.5) 0%, rgba(99, 102, 241, 0.25) 55%, transparent 72%);
+  border-radius: 32px;
+  background: radial-gradient(circle at 50% 40%, rgba(168, 85, 247, 0.4) 0%, rgba(99, 102, 241, 0.2) 55%, transparent 75%);
   filter: blur(28px);
   z-index: 1;
 }
@@ -166,33 +166,33 @@ html {
 .avatar_frame {
   position: relative;
   width: 290px;
-  height: 290px;
-  border-radius: 50%;
+  height: 370px;
+  border-radius: 24px;
   overflow: hidden;
-  border: 3px solid rgba(168, 85, 247, 0.45);
-  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.8), 0 0 30px rgba(168, 85, 247, 0.3);
+  border: 1.5px solid rgba(168, 85, 247, 0.45);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.85), 0 0 30px rgba(168, 85, 247, 0.25);
   z-index: 2;
-  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  background: #09090b;
+  transition: transform 0.35s ease, border-color 0.35s ease, box-shadow 0.35s ease;
 }
 
 .avatar_frame:hover {
-  transform: scale(1.02);
-  border-color: rgba(168, 85, 247, 0.75);
-  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.85), 0 0 40px rgba(168, 85, 247, 0.45);
+  transform: translateY(-4px);
+  border-color: rgba(168, 85, 247, 0.85);
+  box-shadow: 0 25px 55px rgba(0, 0, 0, 0.9), 0 0 45px rgba(168, 85, 247, 0.45);
 }
 
 #poster {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 8%;
-  transform: scale(1.18);
-  transition: transform 0.3s ease;
+  object-position: center 12%;
   display: block;
+  transition: transform 0.35s ease;
 }
 
 .avatar_frame:hover #poster {
-  transform: scale(1.23);
+  transform: scale(1.04);
 }
 
 @media (max-width: 900px) {
@@ -208,11 +208,11 @@ html {
 
   .avatar_wrapper {
     width: 260px;
-    height: 260px;
+    height: 330px;
   }
 
   .avatar_frame {
     width: 240px;
-    height: 240px;
+    height: 310px;
   }
 }
