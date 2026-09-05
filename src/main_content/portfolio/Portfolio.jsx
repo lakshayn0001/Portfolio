@@ -3,11 +3,14 @@ import './Portfolio.css'
 
 const Projects = [
   { name: 'Quiz Application' ,url:'https://lakshayn0001.github.io/Quiz_Application/'},
-  { name: 'CSS Project' ,url:'https://lakshayn0001.github.io/Quiz_Application/'},
-  { name: 'JavaScript Project' ,url:'https://lakshayn0001.github.io/Quiz_Application/' },
-  { name: 'React App' ,url:'https://lakshayn0001.github.io/Quiz_Application/'},
-  { name: 'Bootstrap UI' ,url:'https://lakshayn0001.github.io/Quiz_Application/'},
-  { name: 'Git Practice' ,url:'https://lakshayn0001.github.io/Quiz_Application/'}
+  { 
+    name: 'Real-time Chat Application', 
+    url: 'https://chat-application-blush-phi.vercel.app/' 
+  },
+  { 
+    name: 'AI Data Analyst Dashboard', 
+    url: 'https://ai-data-analyst-dashboard-orcin.vercel.app/' 
+  }
 ]
 
 const Portfolio = () => {
@@ -21,7 +24,7 @@ const Portfolio = () => {
 
       <div className="content_data">
         {Projects.map((value, index) => (
-          <a href={value.url} className="project_summary" key={index}>
+          <a href={value.url} target="_blank" rel="noopener noreferrer" className="project_summary" key={index}>
             <h2>{value.name}</h2>
           </a>
         ))}

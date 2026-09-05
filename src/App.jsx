@@ -13,7 +13,6 @@ import Main from './main_content/main/main.jsx'
 import Tech from './main_content/tech_stack/tech.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
         <HashRouter>
