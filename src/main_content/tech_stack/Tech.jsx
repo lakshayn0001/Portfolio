@@ -3,10 +3,10 @@ import './Tech.css';
 
 const information = [
   {
-    work: 'Software Integrator Developer',
+    work: 'Software Developer',
     company: 'Open Access Technology India Pvt. Ltd.',
-    info: 'Engineered backend integrations, automated enterprise workflows, and optimized continuous deployment CI/CD pipelines.',
-    date: 'Jan 2026 - Present',
+    info: 'Engineered backend integrations, automated enterprise workflows, and optimized application performance and reliability.',
+    date: 'Apr 2023 - Jan 2026',
     url: 'https://drive.google.com/file/d/1v0Pozmmiw6QNzA7f3x8baRuBGughBPoc/view?usp=sharing'
   },
   {

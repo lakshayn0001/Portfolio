@@ -40,7 +40,7 @@ const About = () => {
               I am a Computer Science graduate dedicated to building high-performance, user-centric web applications and scalable backend architectures. I specialize in solving complex problems through clean algorithms, modern JavaScript/TypeScript stacks, and cloud-native containerized workflows.
             </p>
             <p>
-              With strong foundations in Data Structures and Algorithms, I engineer full-stack systems with Next.js, React, Node.js, Express, PostgreSQL, MongoDB, Docker, and WebSockets. I thrive on shipping reliable, production-ready software that delivers measurable impact.
+              With strong foundations in Data Structures and Algorithms, I engineer full-stack systems with Next.js, React, Node.js, Express, PostgreSQL, Docker, and WebSockets. I thrive on shipping reliable, production-ready software that delivers measurable impact.
             </p>
 
             <div className="about_cta">

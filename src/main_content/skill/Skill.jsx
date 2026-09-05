@@ -5,22 +5,22 @@ const skillCategories = [
   {
     title: "Languages",
     badge: "Core",
-    skills: ["JavaScript (ES6+)", "TypeScript", "C++", "SQL", "HTML5", "CSS3"]
+    skills: ["JavaScript (ES6+)", "TypeScript", "Python", "SQL", "HTML5", "CSS3"]
   },
   {
     title: "Frontend Development",
     badge: "Client-Side",
-    skills: ["React.js", "Next.js 16", "Tailwind CSS", "Chart.js", "Vite", "Responsive Design"]
+    skills: ["React.js", "Next.js 16", "Tailwind CSS", "Vite", "Responsive Design"]
   },
   {
     title: "Backend & Databases",
     badge: "Server-Side",
-    skills: ["Node.js", "Express.js", "Socket.io", "PostgreSQL", "MongoDB Atlas", "Prisma ORM", "REST APIs"]
+    skills: ["Node.js", "Express.js", "Socket.io", "PostgreSQL", "Prisma ORM", "REST APIs"]
   },
   {
     title: "DevOps & Cloud",
     badge: "Deployment & Tools",
-    skills: ["Docker", "Kubernetes", "Git & GitHub", "Vercel", "Render", "Postman", "CI/CD Pipelines"]
+    skills: ["Docker", "Kubernetes", "Git & GitHub", "Vercel", "Render", "Postman"]
   }
 ];
 

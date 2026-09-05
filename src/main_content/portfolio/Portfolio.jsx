@@ -13,8 +13,8 @@ const Projects = [
   {
     title: "AI Data Analyst Dashboard",
     badge: "AI & Analytics",
-    description: "Intelligent analytics web application integrating Google Gemini AI to analyze uploaded CSV/JSON datasets, generate interactive charts, and answer natural language data queries.",
-    tech: ["React", "Vite", "Node.js", "Express", "Gemini AI", "MongoDB Atlas", "Chart.js"],
+    description: "Intelligent analytics web application integrating Google Gemini AI to analyze uploaded CSV/JSON datasets, generate visual insights, and answer natural language data queries.",
+    tech: ["React", "Vite", "Node.js", "Express", "Gemini AI", "Tailwind CSS"],
     liveUrl: "https://ai-data-analyst-dashboard-orcin.vercel.app/",
     githubUrl: "https://github.com/lakshayn0001/AI_Data_Analyst_Dashboard"
   },
