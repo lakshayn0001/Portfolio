@@ -14,17 +14,17 @@ const Home = () => {
         <div id="content_section">
           <div className="status_badge">
             <span className="pulsing_dot"></span>
-            <span>Available for New Opportunities</span>
+            <span>Available for Opportunities</span>
           </div>
 
           <h1 className="hero_greeting">
             Hi, I'm <span className="hero_name">Lakshay Nagpal</span>
           </h1>
 
-          <h2 className="hero_role">Full-Stack & Cloud Developer</h2>
+          <h2 className="hero_role">Software Developer</h2>
 
           <p className="hero_tagline">
-            Building high-performance, real-time web applications, AI dashboards, and cloud-native solutions with modern full-stack architectures.
+            Software Developer specializing in building high-performance full-stack web applications, real-time systems, and AI-driven platforms with clean, robust code.
           </p>
 
           <div className="hero_actions">
@@ -40,7 +40,9 @@ const Home = () => {
         <div id="photo_section">
           <div className="avatar_wrapper">
             <div className="avatar_glow"></div>
-            <img id="poster" src={Poster} alt="Lakshay Nagpal" />
+            <div className="avatar_frame">
+              <img id="poster" src={Poster} alt="Lakshay Nagpal" />
+            </div>
           </div>
         </div>
       </div>
