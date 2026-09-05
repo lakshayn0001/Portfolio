@@ -69,7 +69,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://wa.me/917988065094"
+            href="https://wa.me/918395991957"
             target="_blank"
             rel="noopener noreferrer"
             className="contact_card"
@@ -81,7 +81,7 @@ const Contact = () => {
             </div>
             <div>
               <h3>WhatsApp</h3>
-              <p className="contact_val">+91 7988065094</p>
+              <p className="contact_val">+91 8395991957</p>
               <span className="contact_action">Start chat →</span>
             </div>
           </a>
