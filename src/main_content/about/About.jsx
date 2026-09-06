@@ -46,7 +46,7 @@ const About = () => {
             <div className="about_cta">
               <a 
                 id="content-btn" 
-                href="https://drive.google.com/file/d/1l5jgozGyEKUmIcUZ9R0aa2l7dgUqefmd/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Agx-wMrLAPT3ilMJyPQiS8TGtIiT4ByT/view?usp=sharing"
                 target="_blank" 
                 rel="noopener noreferrer"
               >
