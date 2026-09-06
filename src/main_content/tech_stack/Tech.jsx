@@ -3,7 +3,7 @@ import './Tech.css';
 
 const information = [
   {
-    work: 'Software Engineer',
+    work: 'Software Developer – Integration',
     company: 'Open Access Technology India Pvt. Ltd.',
     info: 'Engineered backend integrations, automated enterprise workflows, and optimized application performance and reliability.',
     date: 'Apr 2023 - Jan 2026',
